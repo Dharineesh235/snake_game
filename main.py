@@ -30,7 +30,7 @@ screen.onkey(fun=snake.left, key='Left')
 movement = True
 while movement:
     screen.update()
-    time.sleep(0.14)
+    time.sleep(0.12)
     snake.move()
 
     # catch the food and  grow big
